@@ -19,8 +19,8 @@ E = '\033[1;31m' #احمر
 C = "\033[1;97m" #ابيض
 
 
-ToKen = "5587388525:AAH9sOgVWVGYPEmFzIjqbubNBv6vBCEQVyk"
-admin=[5244755240,2126188116,5571254646,5374908156]
+ToKen = "5279365393:AAEmRXsHRk7Fn-B054Fv3QdJZkZgfZu0hkQ"
+admin=[5244755240,254264270,1403347605,5374908156,1914300431]
 bot = telebot.TeleBot(ToKen)
 @bot.message_handler(commands=['start'])
 def start_message(message):
@@ -49,11 +49,7 @@ def Start(message):
 		""".format(Name,User,ID) , parse_mode = "markdown" , reply_markup = A)
 	 else:
 			bot.reply_to(message,f'''
-			اسف يروحي انت ما مشترك بلبوت
-للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
-تريد تفعل اسبوعين 3 ارقم تليجرام
-تريد تفعل شهر 5 ارقام تليجرام
-اقبل مقابلات أي شي فقط تواصل @S_Y_W 
+			حب انت ممشترك 
 ''')
 	 
 	
